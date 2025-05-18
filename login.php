@@ -38,6 +38,22 @@
       height: auto;
       margin-bottom: 1rem;
     }
+      .forgot-password {
+    background-color: #e7f0ff; /* azul claro */
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+
+  .forgot-password a {
+    color: #012b7e;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
   </style>
 </head>
 <body>
@@ -55,7 +71,7 @@
         <label for="password"><i class="bi bi-lock-fill"></i> Contraseña</label>
       </div>
       <button type="submit" class="btn btn-primary w-100">Ingresar</button>
-      <div class="mt-3">
+      <div class="forgot-password">
         <a href="#">¿Olvidaste tu contraseña?</a>
       </div>
     </form>
