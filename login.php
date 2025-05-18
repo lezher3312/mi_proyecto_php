@@ -61,20 +61,22 @@
   <div class="login-container text-center">
     <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Logo" class="logo">
     <h4 class="mb-4">Iniciar Sesión</h4>
-    <form action="login_action.php" method="POST">
-      <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="email" name="email" placeholder="Correo electrónico" required>
-        <label for="email"><i class="bi bi-envelope-fill"></i> Correo electrónico</label>
-      </div>
-      <div class="form-floating mb-4">
-        <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required>
-        <label for="password"><i class="bi bi-lock-fill"></i> Contraseña</label>
-      </div>
-      <button type="submit" class="btn btn-primary w-100">Ingresar</button>
-      <div class="forgot-password">
-        <a href="#">¿Olvidaste tu contraseña?</a>
-      </div>
-    </form>
+        <form action="panel.php" method="get">
+  <div class="form-floating mb-3">
+    <input type="email" class="form-control" id="email" name="email" placeholder="Correo electrónico" required>
+    <label for="email"><i class="bi bi-envelope-fill"></i> Correo electrónico</label>
+  </div>
+  <div class="form-floating mb-4">
+    <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required>
+    <label for="password"><i class="bi bi-lock-fill"></i> Contraseña</label>
+  </div>
+  <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+  <div class="forgot-password">
+    <a href="#">¿Olvidaste tu contraseña?</a>
+  </div>
+</form>
+
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
