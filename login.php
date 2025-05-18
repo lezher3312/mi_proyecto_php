@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <style>
     body {
-      background: linear-gradient(135deg, #012b7e, #4e73df);
+      background: linear-gradient(135deg,rgb(127, 164, 238), #4e73df);
       min-height: 100vh;
       display: flex;
       justify-content: center;
